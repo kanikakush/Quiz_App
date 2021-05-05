@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Lato", sans-serif;
+}
+/* wrapper */
+.wrapper1 {
+    border: 2px solid white;
+    box-shadow: 5px 10px 8px 10px #888888;
+    height: 50vh;
+    width: 50vw;
+    background-color: #6cab9f;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    place-items: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #341f97;
+} */
+}
+.welcome_text {
+    height: 50vh;
+    width: 400px;
+}
+.welcome_form input,
+.welcome_form button {
+    display: block;
+    width: 90%;
+}
+.welcome_form input {
+    margin-bottom: 15px;
+    padding: 20px 15px;
+    margin-top: 5rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+.welcome_form button {
+    font-size: 22px;
+    margin-top: 2rem;
+    padding: 20px 0;
+    background-color: white;
+    border-radius: 100px;
+    color: #6cab9f;
+    border-radius: 100px;
+    transition: 0.4s all;
+}
+.welcome_form button:hover {
+    transform: translateY(-5px);
+}
+.welcome_form input:focus,
+.welcome_form button:focus {
+    outline: none;
+}
+
+/* front page css*/
+#home{
+    background-color: #bee6de;
+}
+.logo {
+    width: 300px;
+    height: 150px;
+}
+
+nav {
+    width: 100%;
+    height: 90px;
+}
+
+nav ul {
+    float: right;
+    margin: 20px;
+    line-height: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+#para {
+    padding: 8rem 0 2rem 6rem;
+}
+#para1 {
+    size: 100px;
+}
+.bt{
+    background-color: #6cab9f;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #bee6de;
+}
+.quiz {
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: 60px;
+    width: 800px;
+    height: 500px;
+    background-color: white;
+}
+.quiz_header {
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.3);
+    /* x y blur spread shadowcolor rgba(red, green, blue, alpha) */
+    z-index: 1;
+    background-color: white;
+}
+.quiz_body {
+   padding: 30px;
+    background-color: whitesmoke;
+}
+.quiz_user{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.quiz_timer{
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    background-color: #6cab9f;
+    padding: 0 30px;
+   /* top n bottom=0 & right n left=30 */
+}
+.option_group{
+    list-style: none;
+    margin: 30px 0;
+}
+.option{
+    background-color: white;
+    width: 300px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 100px;
+    border: 2px solid transparent;
+   
+}
+.option:hover{
+    cursor: pointer;
+    border: 2px solid #6cab9f;
+
+}
+.btn-next{
+    background-color: #6cab9f;
+    color: white;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 27px;
+    transition: 0.4s all;
+}
+.btn-next:hover{
+    cursor: pointer;
+    background-color: #366159;
+
+}
+.active{
+    background-color:#6cab9f ;
+    color: white;
+}
+
+.user_name, .user_points, .user_time{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+#figma{
+    
+    margin-top: 20px;
+    padding: 10px;
+    width: 17rem;
+    border-radius: 10px;
+    border: transparent;
+    font-size: 20px;
+}
